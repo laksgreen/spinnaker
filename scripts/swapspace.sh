@@ -1,5 +1,5 @@
 #!/bin/bash
-
+## Create a Swap Space 
 sudo fallocate -l 8G /swapspace
 sudo chmod 600 /swapspace
 sudo mkswap /swapspace
